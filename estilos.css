@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Laila', sans-serif;
-    transition: all .4s;
+    transition: all .01s;
   }
   .contenedor{
     width: 100%;
@@ -150,10 +150,45 @@
   }
   .desarrollador{
     background-color: rgb(233,235,238);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     color: gray;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
     font-size: 2rem;
   }
+  .desarrollador:hover{
+    color: #fff;
+    background-color: rgb(34,34,34);
+    transition: all .4s;
+  }
+  i{
+    padding: 1em;
+  }
+  i:hover{
+    cursor: pointer;
+    transition-duration: 0;
+  }
+  [class*="facebook"]:hover{
+    color: rgb(59,89,152);
+  }
+  [class*="youtube"]:hover{
+    color: rgb(255,0,0);
+  }
+  [class*="instagram"]:hover{
+    color: rgb(192,37,107);
+  }
+  [class*="twitter"]:hover{
+    color: rgb(0,171,205);
+  }
+  [class*="skype"]:hover{
+    color: rgb(15,179,240);
+  }
+  [class*="twitch"]:hover{
+    color: rgb(108,36,152);
+  }
+  [class*="github"]:hover{
+    color: rgb(0,0,0);
+  }
+  
+  
